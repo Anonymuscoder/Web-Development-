@@ -1,0 +1,1 @@
+This folder contains exercise code for implementing Image Element in HTML
