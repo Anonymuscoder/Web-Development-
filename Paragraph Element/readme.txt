@@ -1,1 +1,1 @@
-Folder contains project for paragraph element
+Folder contains exercise for paragraph element
