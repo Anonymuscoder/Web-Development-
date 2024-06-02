@@ -1,0 +1,1 @@
+This folder consist of exercise for practicing file paths computer system and how use them show different images on website
