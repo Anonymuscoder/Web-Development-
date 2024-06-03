@@ -1,1 +1,0 @@
-This is my capstone project, basically my E-Resume, it defines all my experience, works done, expertise and other required information
