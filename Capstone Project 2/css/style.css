@@ -1,0 +1,59 @@
+.top {
+  background-color: black;
+  height: 90vh;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.lead {
+  color: rgb(170, 170, 170);
+  margin-top: 5vh;
+  font-family: sans-serif;
+  width: 60;
+}
+
+.career {
+  background-color: #0b60b0;
+}
+
+.pb-2 {
+  font-family: Montserrat;
+  color: #dcdae6;
+}
+
+.fs-2 {
+  font-family: Atkinson Hyperlegible;
+  color: #d9d9d9;
+  font-size: medium;
+}
+
+.skills {
+  color: #d3d0d0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.works {
+  background-color: #40a2d8;
+}
+
+.works p {
+  color: #c9c9c9;
+}
+
+.about {
+  background-color: #0292b7;
+}
+
+.letsConnect {
+  background-color: #050a30;
+}
+
+.footer {
+  background-color: #fef1c5;
+}
