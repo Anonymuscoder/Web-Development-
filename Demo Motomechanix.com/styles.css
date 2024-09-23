@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.producthead{
+    color: rgb(231, 142, 8)
+}
+.navcontainer{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(238, 106, 29);
+    height: 10vh;
+    margin-top: 0;
+    flex-wrap: nowrap;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 14vh;
+    position: relative;
+    top: 35%;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.navcontainer nav a.brand {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: make it bold */
+    margin-left: 15px;
+}
+
+.navcontainer a:hover{
+    color: rgb(196, 198, 199);
+}
+.producthead{
+    text-align: center;
+    margin-top: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.products{
+    margin: 2vw 1vw ;
+    border: 1px solid rgb(177, 106, 13);
+    border-radius: 15px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.products img{
+    width: 30vw;
+}
+.products h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feature{
+    flex: 1;
+}
+.products img:hover{
+    opacity: 0.9;
+}
+.feature h2{
+    color: rgb(235, 194, 12);
+}
+.feature button{
+    height: 4vh;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(224, 132, 89);
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.feature button:hover{
+    background-color: rgb(182, 94, 53);
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.vision h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
+.vision p{
+    text-align: center;
+    margin-top: 4vh;
+}
+.join h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    margin: 6vh ;
+}
+.joined{
+    height: 20vh;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 94, 0);
+}
+.new{
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    color: rgb(255, 94, 0);
+}
+.joined button{
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    height: 5vh;
+    width: 7vw;
+    background-color: orange;
+    color: aliceblue;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.new button{
+    outline: none;
+    border: 0;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 15px;
+    background-color: orange;
+    color: aliceblue;
+    padding: 3px;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.login button:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: #facc86; /* Optional: background color */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Optional: padding */
+    color: rgb(22, 41, 58);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes animation{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.04);}
+    100%{transform: scale(1);}
+}
+
+@media (max-width:480px){
+    body{
+        box-sizing: border-box;
+    }
+    .navcontainer{
+        display: block;
+        height: 280px;
+        background-color: rgb(238, 106, 29);
+    }
+    .navcontainer nav a.brand {
+        font-size: 24px; /* Adjust the size as needed */
+        font-weight: bold; /* Optional: make it bold */
+        margin-bottom: 7px;
+        margin-left: 0;
+        padding: 8px;
+        border: 0px;
+        margin-left: 19vw;
+    }
+    nav a{
+        display: block;
+        text-decoration: none;
+        position: relative;
+
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 6px;
+        padding: 5px;
+        border-bottom: 0.2px solid rgb(117, 84, 61);
+        margin-left: 28vw;
+    }
+    .producthead{
+        text-align: center;
+        margin-top: vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .products{
+        display: block;
+    }
+    .feature{
+        margin-top: 10px;
+    }
+    .feature img{
+        width: 93vw;
+    }
+    .feature button{
+        margin-left: 33vw;
+        margin-bottom: 10px;
+    }
+    .login{
+        display: block;
+    }
+    .login button{
+        width: 20vw;
+    }
+}
+
+
